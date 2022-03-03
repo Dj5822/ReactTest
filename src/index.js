@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TestButton from './components/TestButton';
+import Homepage from './pages/homepage';
 
-ReactDOM.render(<TestButton/>, document.getElementById("main-container"));
+ReactDOM.render(<Homepage/>, document.getElementById("main-container"));
