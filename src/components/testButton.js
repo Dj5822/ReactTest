@@ -7,9 +7,13 @@ function TestButton() {
     const [selected, setSelected] = React.useState(false);
 
     return (
-        <button onClick={() => setSelected(!selected)}>
-            {selected ? "Yes" : "No"}
-        </button>
+        <div>
+            <button onClick={() => setSelected(!selected)}>
+                {selected ?  "hide" : "show"}
+            </button>
+            {selected ? <p>What is the meaning of life?</p> : null}
+        </div>
+        
     );
 }
 
