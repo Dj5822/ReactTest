@@ -4,7 +4,7 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
     // specify the entry point and output for the bundle.
-    entry: path.join(__dirname, "src", "test.js"),
+    entry: path.join(__dirname, "src", "index.js"),
     output: {
         path: path.resolve(__dirname, "dist"),
     },
